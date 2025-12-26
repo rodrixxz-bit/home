@@ -442,11 +442,11 @@ section {
 
 /* Footer */
 .footer {
-    background: #0a0a0a;
-    color: #888;
-    padding: 2rem 0 1.5rem;
-    border-top: 1px solid #333;
-    margin-top: 3rem;
+    background: #1a1a1a;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    border-top: 3px solid #ffdd3c;
+    margin-top: 4rem;
 }
 
 .footer-content {
@@ -456,18 +456,14 @@ section {
 }
 
 .footer-logo {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: #666;
-}
-
-.footer-logo::after {
-    display: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #fff;
 }
 
 .footer-logo:hover {
-    color: #888;
+    color: #ffdd3c;
 }
 
 .social-links {
@@ -481,12 +477,12 @@ section {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     background: transparent;
     border-radius: 50%;
-    color: #666;
-    font-size: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
     transition: color 0.3s ease;
     text-decoration: none;
 }
@@ -500,30 +496,29 @@ section {
 }
 
 .copyright {
-    margin-top: 1rem;
-    font-size: 0.85rem;
-    color: #666;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #fff;
     text-align: center;
+    opacity: 0.8;
 }
 
 /* Dark mode specific footer styles */
 [data-theme="dark"] .footer {
-    background: #0a0a0a;
-    border-top: 1px solid #333;
+    background: #1a1a1a;
+    border-top: 3px solid #ffdd3c;
 }
 
 [data-theme="dark"] .footer-logo {
-    color: #666;
+    color: #fff;
 }
 
 [data-theme="dark"] .footer-logo:hover {
-    color: #888;
+    color: #ffdd3c;
 }
 
 [data-theme="dark"] .social-links a {
-    background: transparent;
-    border: none;
-    color: #666;
+    color: #fff;
 }
 
 [data-theme="dark"] .social-links a:hover {
@@ -531,7 +526,7 @@ section {
 }
 
 [data-theme="dark"] .social-links a i {
-    color: #666;
+    color: #fff;
 }
 
 [data-theme="dark"] .social-links a:hover i {
@@ -539,7 +534,8 @@ section {
 }
 
 [data-theme="dark"] .copyright {
-    color: #666;
+    color: #fff;
+    opacity: 0.8;
 }
 
 /* Ensure form elements are visible in dark mode */
